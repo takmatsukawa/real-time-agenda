@@ -1,0 +1,12 @@
+{
+  "name": "real-time-agenda",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:frontend\"",
+    "dev:server": "cd server && npx tsx --watch index.ts",
+    "dev:frontend": "cd frontend && npx vite"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
