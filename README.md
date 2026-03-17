@@ -1,3 +1,3 @@
 # Real-time Agenda
 
-![screenshot](docs/screenshot.png)
+![demo](docs/demo.png)
